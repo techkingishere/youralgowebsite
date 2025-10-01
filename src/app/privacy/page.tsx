@@ -62,6 +62,14 @@ export default function PrivacyPage() {
       <p>
         For privacy requests, email: support@youralgo.tech
       </p>
+      <h3>Mailing Address</h3>
+      <p>
+        YOURALGO — Attn: Privacy
+        <br />
+        Unit 804 - 2101 Islington Avenue
+        <br />
+        Etobicoke, Ontario M9P 3R2, Canada
+      </p>
     </article>
   );
 }

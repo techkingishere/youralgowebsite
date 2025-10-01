@@ -42,6 +42,21 @@ export default function TermsPage() {
         damages.
       </p>
 
+      <h2>9. SMS Messaging Policy</h2>
+      <p>
+        When you provide your phone number, you consent to receive one-time
+        passcodes (OTP) and service-related messages for authentication and
+        security. Message frequency varies. Message and data rates may apply.
+      </p>
+      <ul>
+        <li>Reply STOP to opt out at any time.</li>
+        <li>Reply HELP for help or contact support@youralgo.tech.</li>
+        <li>
+          Carriers are not liable for delayed or undelivered messages. Delivery
+          is subject to your carrier and network performance.
+        </li>
+      </ul>
+
       <h2>7. Changes</h2>
       <p>
         We may update these Terms. We will post the updated version on this

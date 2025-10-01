@@ -19,6 +19,15 @@ export default function ContactPage() {
         To delete your account and associated personal data, follow the steps on
         the <Link href="/data-deletion">Data Deletion</Link> page.
       </p>
+
+      <h2>Mailing Address</h2>
+      <p>
+        YOURALGO — Attn: Support
+        <br />
+        Unit 804 - 2101 Islington Avenue
+        <br />
+        Etobicoke, Ontario M9P 3R2, Canada
+      </p>
     </article>
   );
 }
