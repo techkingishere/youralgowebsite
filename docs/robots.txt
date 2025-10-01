@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://youralgo.tech/sitemap.xml

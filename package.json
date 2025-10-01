@@ -1,0 +1,29 @@
+{
+  "name": "youralgowebsite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint",
+    "build:gh": "USE_GH_BASE=true NEXT_PUBLIC_SITE_URL=https://techkingishere.github.io/youralgowebsite next build --turbopack && rm -rf docs && mkdir -p docs && cp -R out/* docs/ && cp -f .nojekyll docs/.nojekyll",
+    "build:domain": "USE_GH_BASE=false NEXT_PUBLIC_SITE_URL=https://youralgo.tech next build --turbopack && rm -rf docs && mkdir -p docs && cp -R out/* docs/ && cp -f .nojekyll docs/.nojekyll && cp -f CNAME docs/CNAME"
+  },
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "next": "15.5.4"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.4",
+    "@eslint/eslintrc": "^3"
+  }
+}
